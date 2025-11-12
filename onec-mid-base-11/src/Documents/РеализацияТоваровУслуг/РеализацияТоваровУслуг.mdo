@@ -208,6 +208,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="64052f1b-df4f-46ff-af36-5bf34b0ca653">
+    <name>Ash_КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ash контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ash_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.РеализацияТоваровУслуг.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="0fa92a59-d7cb-4a74-829a-9b3e8366b05b">
     <name>ФормаДокумента</name>
     <synonym>

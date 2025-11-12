@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e0a308d-b795-428d-a0bf-8a64edec776d">
+  <producedTypes>
+    <objectType typeId="3eacf282-f64a-4bba-86f7-e36ae0e8dc16" valueTypeId="b668b8f0-59b1-40e8-8c74-ed183981f185"/>
+    <refType typeId="d85f4702-ab5f-4649-ac73-70e72d160981" valueTypeId="da1e0e70-89b5-47a0-9670-03ab1e979a16"/>
+    <selectionType typeId="8282bfe4-a60f-443a-839e-a850b258df0f" valueTypeId="3403ffb2-2116-41f1-9e80-3f92d5841b67"/>
+    <listType typeId="b438df11-4e28-40b6-82b2-9d50f10d8dbf" valueTypeId="f5683df5-b4bd-4020-9dd4-c7d3d5220bfc"/>
+    <managerType typeId="564ce735-2af5-4557-9509-b43ad475a482" valueTypeId="1499619d-3217-4224-8eba-35eddf6835e0"/>
+  </producedTypes>
+  <name>Ash_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ash_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Ash_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
